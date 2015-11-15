@@ -19,7 +19,7 @@ if (isset($_GET["action"]) && isset($_GET["id"]) && $_GET["action"] == "get_app"
       </tr>
     </table>
     <br />
-    <a href="http://{Your Website}/REST_Client.php?action=get_app_list" alt="app list">Return to the app list</a>
+    <a href="http://restcoba-databaseku.rhcloud.com/REST_Client.php?action=get_app_list" alt="app list">Return to the app list</a>
   <?php
 }
 else // else take the app list
